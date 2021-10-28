@@ -1,0 +1,5 @@
+#!/bin/sh
+
+cd rest && sh ./mvnw install -DskipTests && cd ..
+
+docker-compose -f docker-compose.yml up -d --build
