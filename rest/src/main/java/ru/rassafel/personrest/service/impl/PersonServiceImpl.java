@@ -1,13 +1,13 @@
-package ru.rassafel.peoplerest.service.impl;
+package ru.rassafel.personrest.service.impl;
 
 import java.util.List;
 
 import org.springframework.stereotype.Service;
 
 import lombok.RequiredArgsConstructor;
-import ru.rassafel.peoplerest.model.persistence.Person;
-import ru.rassafel.peoplerest.repository.PersonRepository;
-import ru.rassafel.peoplerest.service.PersonService;
+import ru.rassafel.personrest.model.persistence.Person;
+import ru.rassafel.personrest.repository.PersonRepository;
+import ru.rassafel.personrest.service.PersonService;
 
 /**
  * @author rassafel

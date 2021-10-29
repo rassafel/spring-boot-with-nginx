@@ -1,7 +1,8 @@
-package ru.rassafel.peoplerest.controller;
+package ru.rassafel.personrest.controller;
 
 import org.springframework.web.bind.annotation.*;
-import ru.rassafel.peoplerest.model.dto.PersonDto;
+
+import ru.rassafel.personrest.model.dto.PersonDto;
 
 import java.util.List;
 

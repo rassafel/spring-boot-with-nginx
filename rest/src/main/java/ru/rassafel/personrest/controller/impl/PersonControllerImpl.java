@@ -1,11 +1,11 @@
-package ru.rassafel.peoplerest.controller.impl;
+package ru.rassafel.personrest.controller.impl;
 
 import lombok.RequiredArgsConstructor;
 import ma.glasnost.orika.MapperFacade;
-import ru.rassafel.peoplerest.controller.PersonController;
-import ru.rassafel.peoplerest.model.dto.PersonDto;
-import ru.rassafel.peoplerest.model.persistence.Person;
-import ru.rassafel.peoplerest.service.PersonService;
+import ru.rassafel.personrest.controller.PersonController;
+import ru.rassafel.personrest.model.dto.PersonDto;
+import ru.rassafel.personrest.model.persistence.Person;
+import ru.rassafel.personrest.service.PersonService;
 
 import java.util.List;
 

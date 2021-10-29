@@ -1,7 +1,8 @@
-package ru.rassafel.peoplerest.repository;
+package ru.rassafel.personrest.repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
-import ru.rassafel.peoplerest.model.persistence.Person;
+
+import ru.rassafel.personrest.model.persistence.Person;
 
 import java.util.List;
 

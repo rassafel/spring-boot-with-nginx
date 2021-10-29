@@ -1,4 +1,4 @@
-package ru.rassafel.peoplerest.model.persistence;
+package ru.rassafel.personrest.model.persistence;
 
 import lombok.*;
 

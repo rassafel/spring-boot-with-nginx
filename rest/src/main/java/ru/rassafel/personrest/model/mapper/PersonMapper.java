@@ -1,10 +1,11 @@
-package ru.rassafel.peoplerest.model.mapper;
+package ru.rassafel.personrest.model.mapper;
 
 import ma.glasnost.orika.MapperFactory;
 import ma.glasnost.orika.impl.ConfigurableMapper;
+import ru.rassafel.personrest.model.dto.PersonDto;
+import ru.rassafel.personrest.model.persistence.Person;
+
 import org.springframework.stereotype.Component;
-import ru.rassafel.peoplerest.model.dto.PersonDto;
-import ru.rassafel.peoplerest.model.persistence.Person;
 
 /**
  * @author rassafel

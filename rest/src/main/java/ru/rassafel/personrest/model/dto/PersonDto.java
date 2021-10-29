@@ -1,4 +1,4 @@
-package ru.rassafel.peoplerest.model.dto;
+package ru.rassafel.personrest.model.dto;
 
 import lombok.*;
 

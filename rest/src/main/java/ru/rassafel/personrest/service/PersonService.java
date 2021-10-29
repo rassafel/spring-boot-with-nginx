@@ -1,8 +1,8 @@
-package ru.rassafel.peoplerest.service;
-
-import ru.rassafel.peoplerest.model.persistence.Person;
+package ru.rassafel.personrest.service;
 
 import java.util.List;
+
+import ru.rassafel.personrest.model.persistence.Person;
 
 /**
  * @author rassafel
