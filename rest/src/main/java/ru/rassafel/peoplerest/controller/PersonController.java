@@ -10,7 +10,7 @@ import java.util.List;
  */
 @RequestMapping(PersonController.MAPPING)
 public interface PersonController {
-    String MAPPING = "api/persons";
+    String MAPPING = "/persons";
 
     @GetMapping
     List<PersonDto> getPersons();
