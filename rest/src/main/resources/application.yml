@@ -1,4 +1,6 @@
-server.port: ${PORT}
+server:
+  port: ${PORT}
+  servlet.context-path: /api
 spring:
   application.name: person-rest
   # DB properties
