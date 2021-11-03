@@ -12,7 +12,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                sh './build'
+                sh './mvnw -f rest/pom.xml clean install -DskipTests'
             }
         }
         stage('Test') {
