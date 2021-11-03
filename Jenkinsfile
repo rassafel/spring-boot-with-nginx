@@ -6,6 +6,9 @@ pipeline {
     triggers {
         pollSCM '* * * * *'
     }
+    options {
+        skipStagesAfterUnstable()
+    }
     stages {
         stage('Build') {
             steps {
