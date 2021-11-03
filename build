@@ -1,5 +1,5 @@
 #!/bin/sh
 
-cd rest && sh ./mvnw clean install -DskipTests && cd ..
+sh ./mvnw -f rest/pom.xml clean install -DskipTests
 
 docker-compose build
