@@ -1,10 +1,15 @@
 pipeline {
-    agent { docker { image 'maven:3.8.3' } }
+    agent any
+    tools {
+        jdk 'jdk11'
+    }
+    triggers {
+        pollSCM '* * * * *'
+    }
     stages {
         stage('Build') {
             steps {
-                echo 'Building'
-                sh "build"
+                sh 'build'
             }
         }
         stage('Test') {
